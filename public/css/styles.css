@@ -32,6 +32,16 @@
     border-color: #C28008;
   }
 
+
+  #info-container .already-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    padding: 10px;
+    width: 275px;
+  }
+
   .msg {
     background-color: #D4EDDA;
     color: #155724;
@@ -169,6 +179,9 @@
   }
 
   #info-container h3,
+  #description-container {
+  margin-top: 30px;
+  }
   #description-container h3 {
     font-size: 20px;
     font-weight: bold;
@@ -183,6 +196,35 @@
   #info-container #event-submit {
     margin: 20px 0;
   }
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+#items-list li {
+    display: flex;
+}
+
+/*Dashboard*/
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/*Edit page*/
+
+.img-preview{
+    width: 200px;
+    margin-top: 20px;
+}
 
   /* footer */
   footer {
